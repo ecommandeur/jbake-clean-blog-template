@@ -32,7 +32,7 @@
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copywrite &copy; Your Website 2020 | Baked with <a href="http://jbake.org">JBake ${version}</a></p>
+            <p class="copyright text-muted">Copywrite &copy; Your Website 2020 | Baked with <a href="http://jbake.org" target="_blank">JBake ${version}</a> | <a href="https://startbootstrap.com/theme/clean-blog" target="_blank">Clean Blog Theme</a></p>
           </div>
         </div>
       </div>

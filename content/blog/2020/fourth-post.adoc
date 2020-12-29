@@ -1,6 +1,6 @@
 = Fourth Post
-Jonathan Bullock
-2013-10-17
+Your Name
+2020-10-17
 :jbake-type: post
 :jbake-status: published
 :jbake-tags: blog, asciidoc

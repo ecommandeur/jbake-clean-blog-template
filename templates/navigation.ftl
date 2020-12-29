@@ -17,6 +17,7 @@
            <li class="nav-item">
              <a class="nav-link" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archive.html">Archive</a>
            </li>
+           <!-- TODO how to reach tag pages ?-->
            <!-- TODO contact form???
            <li class="nav-item">
              <a class="nav-link" href="contact.html">Contact</a>
