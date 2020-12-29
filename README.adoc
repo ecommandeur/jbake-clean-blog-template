@@ -1,0 +1,32 @@
+= Clean Blog
+Edwin Commandeur
+2020-12
+
+A port of https://startbootstrap.com/theme/clean-blog[Clean Blog by Start Bootstrap] for JBake. 
+
+== How to use
+
+Requires JBake to be installed on your system.
+
+Clone or Download this theme from https://github.com/ecommandeur/jbake-clean-blog-template[github].
+
+If you wish to start from scratch with this theme:
+
+- (Optional) Remove unwanted files like README.
+- modify user/blog specific fields in `jbake.properties`
+- Delete sample files from contents folder, or modify them to start with your content
+
+Finally `jbake -b` to bake your site. Run `jbake -s` to serve the site locally.
+
+If you already have a blog
+
+- replace your `templates` folder with this one.
+- Remove your earlier theme specific files from `assets`.
+- copy files from my `assets` folder to your `assets` folder.
+- Copy contents from my `jbake.properties` file to your `jbake.properties` file.
+  Replace overlapping entries.
+
+The homepage for your blog is `index.ftl`. 
+Pages, such as `content\about.html` are rendered with the `page.ftl` template.
+Blog posts are rendered with the `post.ftl` template
+
