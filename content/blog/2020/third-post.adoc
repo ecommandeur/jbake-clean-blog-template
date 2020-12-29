@@ -1,4 +1,5 @@
 title=Third Post
+author=Your Name
 date=2013-09-26
 type=post
 tags=blog, asciidoc

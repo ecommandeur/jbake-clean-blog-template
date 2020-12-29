@@ -1,4 +1,5 @@
 title=Second Post
+author=Your Name
 date=2013-08-25
 type=post
 tags=blog
