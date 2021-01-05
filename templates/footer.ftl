@@ -39,14 +39,14 @@
     </footer>
     
     <!-- Bootstrap Core JavaScript -->
-    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>vendor/jquery/jquery.min.js" th:src="|${content.rootpath}vendor/jquery/jquery.min.js|"></script>
-    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>vendor/bootstrap/js/bootstrap.bundle.min.js" th:src="|${content.rootpath}vendor/bootstrap/js/bootstrap.min.js|" ></script>
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>vendor/jquery/jquery.min.js"</script>
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>vendor/bootstrap/js/bootstrap.bundle.min.js"</script>
 
     <!-- Library for syntax highlighting -->
     <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>vendor/prettify/js/prettify.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/clean-blog.min.js" th:src="|${content.rootpath}js/clean-blog.min.js|"></script>
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/clean-blog.min.js"</script>
     
   </body>
 </html>

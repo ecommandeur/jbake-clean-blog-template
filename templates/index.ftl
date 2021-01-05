@@ -46,9 +46,9 @@
                 <#if (post.author)??> by <a href="#">${post.author}</a><#else></#if>
                 on ${post.date?string("dd MMMM yyyy")}</p>
             </div>
+            <hr>
           </#if>
         </#list>
-        <hr>
         <!-- Pager -->
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="${content.rootpath}${config.archive_file}">Older Posts &rarr;</a>

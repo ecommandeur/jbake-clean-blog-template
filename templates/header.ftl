@@ -15,7 +15,7 @@
 
     <!-- Prettify CSS -->
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>vendor/prettify/css/prettify.css" rel="stylesheet" />
-    
+
     <!-- Theme CSS -->
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/clean-blog.min.css" rel="stylesheet" />
 

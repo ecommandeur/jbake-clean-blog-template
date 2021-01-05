@@ -30,3 +30,5 @@ The homepage for your blog is `index.ftl`.
 Pages, such as `content\about.html` are rendered with the `page.ftl` template.
 Blog posts are rendered with the `post.ftl` template
 
+AsciiDoctor CSS does not play nice with the StartBootstrap theme CSS, so the AsciiDoctor CSS is not included.
+
