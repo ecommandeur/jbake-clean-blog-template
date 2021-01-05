@@ -8,6 +8,8 @@
     <meta name="keywords" content="">
     <meta name="generator" content="JBake">
 
+    <!-- Should we have open graph metadata here? Should that differ per post? -->
+
     <title><#if (content.title)??><#escape x as x?xml>${content.title}</#escape><#else>${config.site_title}</#if></title>
 
     <!-- Bootstrap Core CSS -->
