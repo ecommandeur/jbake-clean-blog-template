@@ -21,11 +21,31 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+        <!--
         <#list posts as post>
           <#if (post.status == "published")>
             <a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
             <p>${post.date?string("dd MMMM yyyy")}</p>
             <p>${post.body}</p>
+          </#if>
+        </#list>
+        -->
+        <#list posts as post>
+          <#if (post.status == "published")>
+            <div class="post-preview">
+              <a href="${post.uri}">
+                <h2 class="post-title">
+                  <#escape x as x?xml>${post.title}</#escape>
+                </h2>
+                <#if (post.subtitle)??>
+                <h3 class="post-subtitle">
+                  ${post.subtitle}
+                </h3><#else></#if>
+              </a>
+              <p class="post-meta">Posted
+                <#if (post.author)??> by <a href="#">${post.author}</a><#else></#if>
+                on ${post.date?string("dd MMMM yyyy")}</p>
+            </div>
           </#if>
         </#list>
         <hr>

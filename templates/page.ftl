@@ -3,7 +3,7 @@
   <#include "navigation.ftl">
 
   <!-- Set your background image for this header in the front matter of the page. -->
-  <header class="masthead" style="background-image: url('${content.rootpath}img/${content.mastheadimg}')">
+  <header class="masthead" style="background-image: url('${content.rootpath}img/${content.coverimage}')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
