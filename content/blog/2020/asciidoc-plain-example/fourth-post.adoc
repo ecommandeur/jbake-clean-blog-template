@@ -1,4 +1,4 @@
-= Fourth Post
+= Asciidoc Plain Example
 Your Name
 2020-10-17
 :jbake-subtitle: This is the fourth post

@@ -16,7 +16,7 @@ If you wish to start from scratch with this theme:
 - modify user/blog specific fields in `jbake.properties`
 - Delete sample files from contents folder, or modify them to start with your content
 
-Finally `jbake -b` to bake your site. Run `jbake -s` to serve the site locally.
+Finally, run `jbake -b` to bake your site. Run `jbake -s` to serve the site locally.
 
 If you already have a blog
 

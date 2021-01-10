@@ -38,10 +38,13 @@ As we got further and further away, it [the Earth] diminished in size. Finally i
 
 ++++
 <a href="#">
-  <img class="img-fluid" src="../../img/post-sample-image.jpg" alt="">
+  <img class="img-fluid" src="post-sample-image.jpg" alt="">
 </a>
 <span class="caption text-muted">To go places and do things that have never been donebefore – that’s what living is all about.</span>
 ++++
+
+[role=someclass]
+image::post-sample-image.jpg[sample image,role=img-fluid]
 
 Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.
 

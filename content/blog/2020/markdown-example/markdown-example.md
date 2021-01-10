@@ -1,20 +1,17 @@
-title=Third Post
-subtitle=This is the third post
+title=Markdown Example
+subtitle=This is the second post
 author=Your Name
-date=2020-09-26
+date=2020-08-25
 type=post
-tags=blog, asciidoc
+tags=blog
 status=published
 coverimage=post-bg.jpg
 ~~~~~~
-= Third Post
-Jonathan Bullock
-2013-10-17
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.
 
-* http://example.org
-* http://example.org[Example.org]
+* [http://example.org](http://example.org)
+* [Example.org](http://example.org)
 
 Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu, 
 mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo 
@@ -22,13 +19,4 @@ ligula. Vestibulum tristique odio ut risus ultricies a hendrerit quam iaculis. D
 ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia, elit massa auctor risus, 
 id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales. In 
 consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere 
-libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.
-
-Running jbake without arguments is equivalent to running jbake with `-h`, and will display the usage instructions.
-
-----
-$ jbake
-----
-
-In consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere 
 libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.
