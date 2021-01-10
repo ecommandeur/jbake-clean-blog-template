@@ -14,9 +14,11 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
+    
+    <#if (config.highlight_source)??>
     <!-- HighlightJS CSS -->
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>vendor/highlightjs/css/a11y-dark.css" rel="stylesheet" />
+    </#if>
 
     <!-- Theme CSS -->
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/clean-blog.min.css" rel="stylesheet" />
